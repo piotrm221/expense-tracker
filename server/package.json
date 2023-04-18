@@ -1,0 +1,24 @@
+{
+  "name": "expense-tracker-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "npm run test",
+    "start": "ts-node ./src/app.ts",
+    "dev": "nodemon"
+  },
+  "author": "Piotr Morek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.17",
+    "@types/node": "18.15.11",
+    "nodemon": "2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
